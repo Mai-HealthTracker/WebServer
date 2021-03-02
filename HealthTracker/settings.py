@@ -25,7 +25,8 @@ SECRET_KEY = '5yr0=+m4+oj&+pg)r))hj*gutb29tu(#_4-y&#*k4xm4@a3va8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['mai-health.herokuapp.com','127.0.0.1','com.demodjango']
+# ALLOWED_HOSTS = ['mai-health.herokuapp.com','127.0.0.1','com.demodjango']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
